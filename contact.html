@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>My Portfolio</title>
+	<link href="http://www.iconj.com/ico/k/7/k7z5qq5vnd.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel= "sytlesheet" type="text/css" href= "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Halant:wght@400;600&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="css/style.production.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+
+      <header class="page-header">
+      <img alt="logo" class="page-header__item" src="img/LOGO.png"><!-- make this look better -->
+	   <nav class="main-navigation page-header__item">
+			<ul class="navigation-list" role="menubar">
+				<li role="presentation">
+					<a class="navigation-list__item navigation-list__item--active" href="index.html" role="menuitem">Home</a>
+				</li>
+				<li role="presentation">
+					<a class="navigation-list__item" href="about.html" role="menuitem">About</a>
+				</li>
+				<li role="presentation">
+					<a class="navigation-list__item navigation-list__item--active" href="work.html" role="menuitem">Work</a>
+				</li>
+				<li role="presentation">
+					<a class="navigation-list__item" href="contact.html" role="menuitem">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		</header>
+
+   <div class= "contact-me">
+	    <h1>Contact</h1>
+		Tel: <a class="required" aria-label="Tel: +16466431283" href="tel:+16466431283">+16466431283</a><br>
+		Skype: <a href="skype:temitayo.fagbenle">temitayo.fagbenle</a><br>
+		<a href="mailto:fagbenletemi@gmail.com">fagbenletemi@gmail.com</a><br>
+		<br><br>
+		<a href="mailto:fagbenletemi@gmail.com">Let's Stay In Touch!</a>
+	</div>
+
+	<br><br>
+	
+	
+	<form class= "message box" action="" id="contact-form" method="post" name="contact-form">
+		<label class="standard-label" for="contact-email">Email:</label> <input id="contact-email" required="" type="email">
+		<label class="standard-label" for= "contact-tel" >Telephone:</label> <input type= "tel" id= "contact-tel" required="" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+		<label class="standard-label" for= "contact-message" >Message:</label> 
+		<textarea maxlength="240" required="" label for= "textarea" id= "contact-message"></textarea>
+		<input type="submit"  id= "contact-message"  required="" value="Send message">
+	</form>
+
+	<footer class= "page-footer">
+	<p>Find me on</p> <!--footer-->
+	<div class= "social-media">
+		 <img alt="github" src="img/iconfinder_github_287725.svg"> 
+		 <img alt="twitter" src="img/iconfinder_Twitter_381374.svg"> 
+		 <img alt="linkedin" src="img/iconfinder_square-linkedin_317725.svg">
+	</footer>
+	</div>
+	<script src="tota11y.min.js">
+	</script>
+</body>
+</html>
